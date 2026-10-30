@@ -1,0 +1,6 @@
+[install]
+exact = false
+
+[test]
+# Preload reflect-metadata so decorator metadata is available in tests.
+preload = ["./src/common/tests/setup.ts"]
